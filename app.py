@@ -81,7 +81,7 @@ def run():
 
     if demo_name == "—":
         show_code = False
-        st.write("# Welcome to Streamlit! 👋")
+        st.write("# Welcome to Streamlit à moi! 👋")
     else:
         show_code = st.sidebar.checkbox("Show code", True)
         st.markdown("# %s" % demo_name)
